@@ -44,11 +44,11 @@ O projeto consiste em fazer uma api com todas as relações **CRUD** e também s
 
 - Configurar variáveis do Banco de Dados.
 
-![Banco de Dados](https://drive.google.com/file/d/1VYkcIN2g5kPf3c7DBhGkdfprtMCRRnmZ/view?usp=sharing)
+![Banco de Dados](https://drive.google.com/uc?id=1VYkcIN2g5kPf3c7DBhGkdfprtMCRRnmZ)
 
 - Na pasta src/main, execute o arquivo PaymentApplication.java
 
-![PaymentApplication](https://drive.google.com/file/d/1b_ie7_9Om0PtDrhIMF2J_HJFsT45Dt-f/view?usp=sharing)
+![PaymentApplication](https://drive.google.com/uc?id=1b_ie7_9Om0PtDrhIMF2J_HJFsT45Dt-f)
 
 - Para testar a api você pode utilizar ferramentas de client como:
     - [Postman](https://www.postman.com/)
