@@ -60,3 +60,5 @@ O projeto consiste em fazer uma api com todas as relações **CRUD** e também s
 - Adicionar autenticação | cadastro de usuário da api.
 - Ainda no cadastro fazer verificação por email com geração de código de validação | serviços de mensageria.
 - Contruir uma interface gráfica para a api | FrontEnd.
+
+https://code.visualstudio.com/docs/java/java-spring-boot
