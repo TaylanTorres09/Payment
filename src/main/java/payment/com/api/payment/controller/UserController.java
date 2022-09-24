@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import payment.com.api.payment.models.LoginUser;
 import payment.com.api.payment.models.User;
 import payment.com.api.payment.service.UserService;
 
@@ -28,6 +29,11 @@ public class UserController {
     @PostMapping("/register")
     public ResponseEntity<?> registerUser(@RequestBody User user) {
         return us.registerUser(user);
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<?> loginUser(@RequestBody LoginUser form) {
+        return us.loginUser(form);
     }
 
 }
