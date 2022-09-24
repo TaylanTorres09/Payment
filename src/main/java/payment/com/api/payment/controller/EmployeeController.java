@@ -89,7 +89,10 @@ public class EmployeeController {
             "- Atualizar Funcionário Terceirizado: /update/outSourced [POST] \n" +
             "- Listar Todos os Funcionários: /listAll [GET] \n" +
             "- Remover funcionário: /remove/{id} [DELETE] \n" +
-            "- Salário e atributo de todos os funcionários: /salary [GET]";
+            "- Salário e atributo de todos os funcionários: /salary [GET] \n" +
+            "- Listar Todos os Usuários: /user/list \n" +
+            "- Registrar Usuário: /user/register \n" +
+            "- Login Usuário: /user/login";
     }
 
 }
