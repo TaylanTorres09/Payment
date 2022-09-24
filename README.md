@@ -16,7 +16,7 @@ Uma empresa possui funcionários próprios e terceirizados. Para cada funcionár
 Funcionários terceirizado possuem ainda uma despesa adicional. O pagamento dos funcionários corresponde ao valor da hora multiplicado pelas horas trabalhadas, sendo que os funcionários terceirizados ainda recebem um bônus correspondente a 110% de sua despesa adicional.
 </p>
 
-O projeto consiste em fazer uma api com todas as relações **CRUD** e também satisfazer a problemática acima.
+O projeto consiste em fazer uma api utilizando o [Spring Boot](https://code.visualstudio.com/docs/java/java-spring-boot) com todas as relações **CRUD** e também satisfazer a problemática acima.
 
 ### EndPoints do projeto:
 - Cadastro de Funcionários: /register
@@ -26,6 +26,11 @@ O projeto consiste em fazer uma api com todas as relações **CRUD** e também s
 - Listar Todos os Funcionários: /listAll
 - Remover funcionário: /remove/{id}
 - Salário e atributo de todos os funcionários: /salary
+
+#### Para o usuário:
+- Listar Todos os Usuários: /user/list
+- Registrar Usuário: /user/register
+- Login Usuário: /user/login
 
 ### Descrição da Api
 #### Executar Api Remotamente:
@@ -57,8 +62,7 @@ O projeto consiste em fazer uma api com todas as relações **CRUD** e também s
     - Ou outra de sua preferência.
 
 ### Próximos Passos
+- Encriptar a senha.
 - Adicionar autenticação | cadastro de usuário da api.
 - Ainda no cadastro fazer verificação por email com geração de código de validação | serviços de mensageria.
 - Contruir uma interface gráfica para a api | FrontEnd.
-
-https://code.visualstudio.com/docs/java/java-spring-boot
