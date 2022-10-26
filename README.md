@@ -3,7 +3,7 @@
 ## Descrição Geral
 
 Projeto inspirado em uma atividade da aula 162 do curso [Java COMPLETO Programação Orientada a Objetos +Projetos
-](https://www.udemy.com/course/java-curso-completo/), ministrado pelo professor Nélio Alves. Deploy [api_payment](https://api-paymen.herokuapp.com/).
+](https://www.udemy.com/course/java-curso-completo/), ministrado pelo professor Nélio Alves.
 
 <p>Este projeto foi adaptado construindo uma api, com o intuito de estudo do framework Spring Boot.</p>
 
@@ -33,8 +33,6 @@ O projeto consiste em fazer uma api utilizando o [Spring Boot](https://code.visu
 - Login Usuário: /user/login
 
 ### Descrição da Api
-#### Executar Api Remotamente:
-- Link do Deploy: https://api-paymen.herokuapp.com/
 
 #### Executar Api localmente:
 - Para clonar o projeto: git clone https://github.com/TaylanTorres09/Payment.git
